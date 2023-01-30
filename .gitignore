@@ -4,3 +4,5 @@
 .vscode/
 
 addons/godot-git-plugin/
+
+*.DS_Store
