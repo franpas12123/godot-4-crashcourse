@@ -6,3 +6,10 @@
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_362ia")]
 position = Vector2(50, 49)
+
+[node name="RemoteTransform2D" type="RemoteTransform2D" parent="CharacterBody2D"]
+remote_path = NodePath("../../PlayerCamera")
+
+[node name="PlayerCamera" type="Camera2D" parent="."]
+position = Vector2(50, 49)
+current = true
