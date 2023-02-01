@@ -1,8 +1,7 @@
 # Godot 4+ specific ignores
 .godot/
-
 .vscode/
+*.DS_Store
 
 addons/godot-git-plugin/
-
-*.DS_Store
+dist/
